@@ -9,10 +9,6 @@ App::uses( 'PhpCompiler', 'CakeDeploy.Vendor' );
 
 class CakeDeployController extends CakeDeployAppController {
 	
-	public $autoRender = false;
-	
-	public $uses = false;
-	
 	public function index() {
 		
 		$source = ROOT . DS;
